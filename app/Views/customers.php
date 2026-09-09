@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>Customer Accounts</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
+<div class="container">
 
 <h1>POS System</h1>
 
@@ -13,8 +16,6 @@
     <a href="/customers">Customers</a> |
     <a href="/users">Users</a>
 </nav>
-
-<hr>
 
 <h1>Customer Accounts</h1>
 
@@ -27,13 +28,14 @@
 
     <?php foreach ($customers as $customer): ?>
     <tr>
-        <td><?= esc($customer['fullname']) ?></td>
-        <td><?= esc($customer['email']) ?></td>
-        <td><?= esc($customer['phone']) ?></td>
+        <td><?= ($customer['fullname']) ?></td>
+        <td><?= ($customer['email']) ?></td>
+        <td><?= ($customer['phone']) ?></td>
     </tr>
     <?php endforeach; ?>
 
 </table>
 
+</div>
 </body>
 </html>

@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>POS System</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
+<div class="container">
 
 <h1>POS System</h1>
 
@@ -14,10 +17,9 @@
     <a href="/users">Users</a>
 </nav>
 
-<hr>
-
-<h2>Welcome</h2>
+<h1>Welcome</h1>
 <p>Welcome to the POS System Version 1.</p>
 
+</div>
 </body>
 </html>

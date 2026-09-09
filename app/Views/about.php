@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>About</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
+<div class="container">
 
 <h1>POS System</h1>
 
@@ -14,11 +17,9 @@
     <a href="/users">Users</a>
 </nav>
 
-<hr>
-
 <h1>About</h1>
-
 <p>This is a basic Point-of-Sale system built using CodeIgniter 4.</p>
 
+</div>
 </body>
 </html>

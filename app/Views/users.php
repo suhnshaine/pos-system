@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>User Accounts</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
+<div class="container">
 
 <h1>POS System</h1>
 
@@ -13,8 +16,6 @@
     <a href="/customers">Customers</a> |
     <a href="/users">Users</a>
 </nav>
-
-<hr>
 
 <h1>User Accounts</h1>
 
@@ -27,13 +28,14 @@
 
     <?php foreach ($users as $user): ?>
     <tr>
-        <td><?= esc($user['username']) ?></td>
-        <td><?= esc($user['fullname']) ?></td>
-        <td><?= esc($user['role']) ?></td>
+        <td><?= ($user['username']) ?></td>
+        <td><?= ($user['fullname']) ?></td>
+        <td><?= ($user['role']) ?></td>
     </tr>
     <?php endforeach; ?>
 
 </table>
 
+</div>
 </body>
 </html>
