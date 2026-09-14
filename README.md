@@ -29,7 +29,7 @@ The application currently uses static PHP arrays as temporary data sources for c
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/pos-system.git
+git clone https://github.com/suhnshaine/pos-system.git
 ```
 
 ### 2. Navigate to the Project Folder
@@ -44,27 +44,13 @@ cd pos-system
 composer install
 ```
 
-### 4. Configure Environment
-
-Rename the environment file:
-
-```text
-env -> .env
-```
-
-Set the base URL in `.env`:
-
-```ini
-app.baseURL = 'http://localhost:8080/'
-```
-
-### 5. Start the Development Server
+### 4. Start the Development Server
 
 ```bash
 php spark serve
 ```
 
-### 6. Open the Application
+### 5. Open the Application
 
 Visit:
 
