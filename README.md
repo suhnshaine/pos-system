@@ -44,13 +44,27 @@ cd pos-system
 composer install
 ```
 
-### 4. Start the Development Server
+### 4. Configure Environment File
+
+Rename the provided environment file:
+
+```text
+env -> .env
+```
+ 
+Set the base URL:
+
+```ini
+app.baseURL = 'http://localhost:8080/'
+```
+
+### 5. Start the Development Server
 
 ```bash
 php spark serve
 ```
 
-### 5. Open the Application
+### 6. Open the Application
 
 Visit:
 
